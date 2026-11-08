@@ -1,0 +1,14 @@
+{
+  "name": "morse-core",
+  "version": "0.1.0",
+  "description": "ITU Morse encode/decode: letters, digits, punctuation, strict tokens. Zero runtime dependencies.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test tests/morse.test.js",
+    "demo": "node bin/morse.mjs --assert"
+  }
+}
